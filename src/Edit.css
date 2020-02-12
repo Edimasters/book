@@ -1,0 +1,40 @@
+.Edit {
+  margin-right: auto;
+  margin-left: auto;
+  font-style: oblique;
+  min-height:350px;
+  min-width:350px;
+  font-size: 1rem;
+}
+.new {
+  display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
+}
+
+/* .new{
+  margin-right: auto;
+  margin-left: auto;
+  border: black dashed;
+  border-radius: 5px;
+} */
+
+.Card{
+  margin-right: auto;
+  margin-left: auto;
+  border: black dashed;
+  border-radius: 5px;
+}
+
+.item:hover {
+  background: #343a40;
+  color: white;
+  border-radius: 5px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
